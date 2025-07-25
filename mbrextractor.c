@@ -1,7 +1,7 @@
 // MBR Extractor for Windows/GNU Linux created by isaachhk02
 #include "mbrextractor.h"
 #include <stdio.h>
-
+#include <stdlib.h>
 int extract_mbr(const char *dev, const char *target_file_path) {
     FILE* target_file;
     FILE* output_file;
