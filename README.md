@@ -4,7 +4,7 @@ MBR Extractor is a simple command-line tool for extracting the Master Boot Recor
 
 ## Features
 
-- Extracts the first 446 bytes of the MBR from a specified device.
+- Extracts the first 512 bytes of the MBR from a specified device.
 - Supports Windows device paths (e.g., `\\.PhysicalDrive0`).
 - Supports Linux device paths (e.g., `/dev/sda`).
 - Provides informative error messages for common issues.
