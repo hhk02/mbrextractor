@@ -7,7 +7,7 @@ int extract_mbr(const char *dev, const char *target_file_path) {
     FILE* output_file;
     target_file = fopen(dev,"rb");
     output_file = fopen(target_file_path,"wb");
-    char output_mbr[446];
+    char output_mbr[512];
     if (dev == NULL ) {
         printf("ERROR: Invalid device!\n");
         exit(-1);
