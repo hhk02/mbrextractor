@@ -8,5 +8,5 @@ private:
     int option;
     FILE* target_file;
     FILE* output_file;
-    char output_mbr[446];
+    char output_mbr[512];
 #endif // MBREXTRACTOR_H
